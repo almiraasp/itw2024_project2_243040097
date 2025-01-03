@@ -1,0 +1,36 @@
+body {
+  min-height: 2000px;
+}
+
+section {
+  height: 100vh;
+}
+
+.bgimage {
+  height: 100vh;
+  background: url("img/home.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.home-title {
+  font-size: 4.5rem;
+}
+
+.home-desc {
+  font-size: 2rem;
+}
+
+.hero-text {
+  text-align: start;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#Official,
+#Pemain,
+#kontak {
+  background-color: #74d5ed;
+}
