@@ -1,5 +1,6 @@
 body {
   min-height: 2000px;
+  font-family: "Arvo", serif;
 }
 
 section {
@@ -8,17 +9,17 @@ section {
 
 .bgimage {
   height: 100vh;
-  background: url("img/home.jpg");
+  background-image: url(img/home.jpg);
   background-size: cover;
   position: relative;
 }
 
-.home-title {
-  font-size: 4.5rem;
+.beranda-title {
+  font-size: 3.5rem;
 }
 
-.home-desc {
-  font-size: 2rem;
+.beranda-desc {
+  font-size: 1.5rem;
 }
 
 .hero-text {
@@ -31,6 +32,66 @@ section {
 
 #Official,
 #Pemain,
-#kontak {
+#Kontak {
   background-color: #74d5ed;
+}
+
+footer {
+  background-color: #158dd7;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+section #TentangKami {
+  padding-top: 7rem;
+}
+
+/* section contact */
+
+.fcontact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-inputs {
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #666;
+  border-radius: 50px;
+}
+
+.fcontact textarea {
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.contact-inputs:focus {
+  border: 2px solid #014772;
+}
+
+.contact-inputs::placeholder {
+  color: #a9a9a9;
+}
+
+.contact-button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #014772;
+  gap: 10px;
+  border: none;
+  letter-spacing: 3px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  cursor: pointer;
 }
